@@ -1,0 +1,121 @@
+// Variables: colores y tipografías
+@import "./variables";
+
+// ESTILOS GENERALES DE CONTACTOS
+
+// Formulario
+form legend{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+div label{
+    margin-bottom: 1rem;
+}
+
+div input{
+    margin-bottom: 1rem;
+    border: none;
+    background-color: $color-lilaClaro;
+    font-family: $tipografiaP;
+}
+
+div textarea{
+    margin-bottom: 1rem;
+    border: none;
+    background-color: $color-lilaClaro;
+    font-family: $tipografiaP;
+    width: 27rem;
+}
+
+textArea:hover{
+    background-color: $color-lilaOscuro;
+}
+
+// CLASES Y BLOQUES: contacto
+
+.contacto{
+    display: flex;
+    justify-content: center;
+    background-color: $color-lilaClaro;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    width: 30rem;
+    height: 43rem;
+    background-color: $color-blanco;
+    margin-bottom: 8rem;
+    color: $color-verde;
+    font-family: $tipografiaP;
+    &__divItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__nombre{
+        width: 25rem;
+        height: 1.5rem;
+    }
+    &__nombre:hover{
+        background-color: $color-lilaOscuro;
+    }
+    &__newsLetter{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    &__checkBox{
+        margin-left: 1rem;
+        margin-top: 0.2rem;
+    }
+    &__botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    &__boton{
+        background-color: $color-rosa;
+        color:$color-blanco;
+        border: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        transition: color 1s;
+        width: 5rem;
+        height: 2rem;
+        font-size: 1rem;
+        margin: 1rem;
+        transition: 1s;
+    }
+    &__boton:hover{
+        background-color: $color-verde;
+     } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

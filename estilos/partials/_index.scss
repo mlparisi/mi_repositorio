@@ -1,0 +1,143 @@
+// Variables (colores y tipografías)
+@import "./variables";
+
+// ESTILOS GENERALES DE INDEX
+// BLOQUES Y CLASES
+// Bloque sección principal
+.seccion{
+    &__divTitulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__titulo{
+        font-family: $tipografia;
+        font-size: 4rem;
+        color: $color-verde;
+        text-align: center;
+        margin-right: 2rem;
+        line-height: 6rem;
+        font-style: italic;
+        margin-bottom: 2rem;
+    }
+    &__pPrincipal{
+        text-align: center;
+        font-style: italic;
+        font-size: 1.2rem;
+    }
+    &__imgPrincipal{
+        margin-top: 2rem;
+        margin-bottom: 5rem;
+    }
+}
+
+// Bloque seccción servicios
+.section{
+    display: flex;
+    justify-content: center;
+    background-color: $color-lilaClaro;
+    &__servicios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__serviciosP{
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        text-align: center;
+    }
+    &__consultas{
+        font-family: $tipografia;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1rem;
+        color: $color-verde;
+        margin-bottom: 1rem;
+        }
+    &__turnos{
+        text-decoration:none;
+        font-family: $tipografia;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $color-blanco;
+        background-color: $color-rosa;
+        padding: 0.5rem;
+        transition: 1s;
+        }
+    &__turnos:hover{
+        color: $color-blanco;
+        background-color: $color-verde;
+        }
+
+    &__servicios2{
+        margin-bottom: 8rem;
+        }
+    }
+
+// RESPONSIVE
+@media only screen and (max-width: 320px){
+    // Seccón principal
+    .hrResponsive{
+        text-align: center;
+        }
+
+    .titulo{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+        margin-left: 6rem;
+    }
+   
+    // Servicios
+        .serviciosResponsive{
+            display: flex;
+            flex-direction: column;
+            
+           
+            text-align: center;
+        }
+        .servicios2Mq{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+}
+
+
+@media only screen and (max-width: 768px){
+    // Sección principal
+    .titulo{
+        margin-top: 2rem;
+    }
+
+    .seccion{
+        &__imgPrincipal{
+            margin-bottom: 5rem;
+            margin-left: 2.9rem;
+        }
+    }
+    // Servicios
+    .serviciosResponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30rem;
+        text-align: center;
+    }
+
+    .servicios2Mq{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+
+
+

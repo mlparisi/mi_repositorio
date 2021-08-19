@@ -1,0 +1,76 @@
+// Variables: colores y tipografías
+@import "./variables";
+
+// BLOQUES Y CLASES: consultorio
+
+.consultorio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    margin-bottom: 8rem;
+    &__consultasP{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__consultorioP{
+        width: 30rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+        font-family: $tipografiaP;
+    }
+    &__solicitud{
+        text-decoration:none;
+        font-family: $tipografia;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $color-blanco;
+        background-color: $color-rosa;
+        padding: 0.5rem;
+        transition: 1s;
+    }
+    &__solicitud:hover{
+        background-color:$color-verde;
+        color: $color-blanco;
+    }
+}
+
+
+
+
+// RESPONSIVE
+@media only screen and (max-width: 320px){
+    .consultorio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+        margin-bottom: 8rem;
+    }
+    
+    .consultorioP{
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .consultorio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+        margin-bottom: 8rem;
+    }
+    
+    .consultorioP{
+        margin-top: 2rem;
+    }
+}

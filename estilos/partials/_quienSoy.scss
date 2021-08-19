@@ -1,0 +1,57 @@
+// Variables (colores y tipografías)
+@import "./variables";
+
+// CLASES: quienSoy
+
+.quienSoy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    margin-bottom: 8rem;
+}
+
+.quienSoy2{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgQuienSoy{
+    height: 45rem;
+    width: $ancho;
+}
+
+// RESPONSIVE
+@media only screen and (max-width: 320px){
+    .quienSoy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+        margin-bottom: 8rem;
+    }
+
+    .seccionesP{
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .quienSoy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+        margin-bottom: 8rem;
+    }
+
+    .seccionesP{
+        margin-top: 2rem;
+    }
+}
