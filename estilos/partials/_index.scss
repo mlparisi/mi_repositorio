@@ -82,13 +82,17 @@
 // RESPONSIVE
 @media only screen and (max-width: 320px){
     // Seccón principal
-    .titulo{
-        font-size: 1.5rem;
-        line-height: 2rem;
-        margin-top: 2rem;
-        margin-right: 0rem;
-        margin-bottom: 1rem;
-        margin-left: 6rem;
+    .seccion{
+        &__divTitulo{
+            margin-left: 3.5rem;
+        }
+        &__titulo{
+            font-size: 3.2rem;
+            margin-bottom: 1rem;
+        }
+        &__pPrincipal{
+            font-size: 1rem;
+        }
     }
    
     // Servicios

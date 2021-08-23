@@ -130,14 +130,8 @@ footer{
         margin-left: 2rem;
     }
     // Navecación
-    .navbar-toggler {
-        padding: .25rem .75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: transparent;
-        border: 1px solid $color-rosa;
-        border-radius: .25rem;
-        transition: box-shadow .15s ease-in-out;
+    .navbar-brand{
+        margin: 0rem;
     }
 }
 
