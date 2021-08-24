@@ -402,11 +402,6 @@ footer{
 
 @media only screen and (max-width: 320px) {
 
-    /* Header */
-    #header{
-        margin-left: 2rem;
-    }
-
     /* Navegacion */
     .navbar-brand{
         margin: 0rem;
@@ -425,7 +420,7 @@ footer{
     /* INDEX */
     /* Seccón principal */
     .divTitulo{
-        margin-left: 3.3rem;
+        margin-left: 3.2rem;
     }
     .titulo{
         font-size: 3.3rem;
@@ -437,7 +432,7 @@ footer{
 
     .imgPrincipal{
         margin-bottom: 5rem;
-        margin-left: 2.4rem;
+        margin-left: 1.7rem;
     }
     
     /* Servicios */
@@ -461,7 +456,18 @@ footer{
     }
   
     /* QUIEN SOY */
-
+    .quienSoy{
+        width: 37.5rem;
+        margin-left: -1rem;
+    }
+ 
+    .imgQuienSoy{
+     height: 35rem;
+     width: 40rem;
+ }
+     .quienSoy2{
+         margin-left: -1.2rem;
+     }
     
 
     /* CONSULTORIO */
