@@ -45,13 +45,11 @@
 // RESPONSIVE
 @media only screen and (max-width: 320px){
     .consultorio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem;
-        margin-bottom: 8rem;
+        width: 30rem;
+        margin-left: 2.6rem;
+    }
+    .imgConsultorio{
+        margin-left: 0.8rem;
     }
     
     .consultorioP{

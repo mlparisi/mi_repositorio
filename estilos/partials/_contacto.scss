@@ -101,10 +101,12 @@ textArea:hover{
      } 
 }
 
-
-
-
-
+// RESPONSIVE
+@media only screen and (max-width: 320px){
+    .contacto{
+        width: 35rem;
+    }
+}
 
 
 

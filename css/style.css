@@ -41,7 +41,7 @@ hr{
 footer{                          
     background-color: #b67162;
     color: #fff;
-    height: 25rem;
+    height: 30rem;
     display: flex;
 }
 
@@ -406,32 +406,55 @@ footer{
     #header{
         margin-left: 2rem;
     }
+
+    /* Navegacion */
     .navbar-brand{
         margin: 0rem;
+    }
+
+    /* Main */
+    main{
+        width: 30rem;
+    }
+
+    /* Footer */
+    footer{
+        width: 35rem;
     }
 
     /* INDEX */
     /* Seccón principal */
     .divTitulo{
-        margin-left: 3.5rem;
+        margin-left: 3.3rem;
     }
     .titulo{
-        font-size: 3.2rem;
+        font-size: 3.3rem;
         margin-bottom: 1rem;
     }
     .pPrincipal{
         font-size: 1rem;
     }
+
+    .imgPrincipal{
+        margin-bottom: 5rem;
+        margin-left: 2.4rem;
+    }
     
     /* Servicios */
-    #servicios{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 30rem;
-        text-align: center;
+    .section{
+        width: 35rem;
     }
-
+     .img1{
+        width: 25rem;
+        height: 25rem;
+        margin-left: 0rem;
+    }
+    .img2{
+        width: 25rem;
+        height: 25rem;
+        margin-left: 3.9rem;
+    }
+    
     .servicios2Mq{
         display: flex;
         flex-direction: column-reverse;
@@ -439,50 +462,24 @@ footer{
   
     /* QUIEN SOY */
 
-    .quienSoy{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem;
-        margin-bottom: 8rem;
-    }
     
-    .seccionesP{
-        margin-top: 2rem;
-        width: 30rem;
-        margin-left: 2rem;
-        font-family: Arial, Helvetica, sans-serif;
-
-    }
 
     /* CONSULTORIO */
     .consultorio{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem;
-        margin-bottom: 8rem;
+        width: 30rem;
+        margin-left: 2.6rem;
+    }
+    .imgConsultorio{
+        margin-left: 0.8rem;
     }
     
     .consultorioP{
-        width: 30rem;
-        margin-left: 1rem;
-        margin-bottom: 2rem;
-        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 2rem;
     }
     
     /* RECETARIOS */
     .recetarios1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
+        width: 35rem;
     }
 
     .seccionesP{
@@ -490,13 +487,19 @@ footer{
     }
 
     .recetarios2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem;
-        margin-bottom: 8rem;
+        width: 35rem;
+    }
+    
+    .tamañoImagen{
+        height: 30rem;
+        width: 35rem;
+    }
+
+    /* CONTACTO */
+    @media only screen and (max-width: 320px){
+        .contacto{
+            width: 35rem;
+        }
     }
 }
 	
@@ -509,7 +512,7 @@ footer{
     }
     .imgPrincipal{
             margin-bottom: 5rem;
-            margin-left: 2.9rem;
+            margin-left: 3.2rem;
         }
 
     /* Servicios */
