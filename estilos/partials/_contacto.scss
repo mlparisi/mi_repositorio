@@ -27,7 +27,7 @@ div textarea{
     border: none;
     background-color: $color-lilaClaro;
     font-family: $tipografiaP;
-    width: 27rem;
+    width: 30rem;
 }
 
 textArea:hover{
@@ -35,11 +35,23 @@ textArea:hover{
 }
 
 // CLASES Y BLOQUES: contacto
+.contacto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    justify-content: center;
+}
 
 .contacto{
     display: flex;
     justify-content: center;
-    background-color: $color-lilaClaro;
+}
+
+.contactoP{
+    font-family: $tipografiaP;
+    width: 30rem;
+    text-align: center;
 }
 
 .divForm{
@@ -47,10 +59,9 @@ textArea:hover{
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    width: 30rem;
-    height: 43rem;
-    background-color: $color-blanco;
-    margin-bottom: 8rem;
+    width: 45rem;
+    height: 47rem;
+    margin-bottom: 10rem;
     color: $color-verde;
     font-family: $tipografiaP;
     &__divItems{
@@ -61,8 +72,8 @@ textArea:hover{
         text-align: center;
     }
     &__nombre{
-        width: 25rem;
-        height: 1.5rem;
+        width: 30rem;
+        height: 3rem;
     }
     &__nombre:hover{
         background-color: $color-lilaOscuro;

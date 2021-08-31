@@ -34,7 +34,6 @@ ul{
             }
         }
     }
-
     // hr y p
 hr{
     margin-left: 4rem;
@@ -88,14 +87,17 @@ footer{
 // Main (sección: quienSoy, consultorio, recetarios y contacto)
 .subtitulo{
     font-family: $tipografia;
-    color: $color-rosa;
+    color: $color-verde;
     padding: 1rem;
     text-transform:uppercase;
     text-align: center;
     font-weight: bold;
     font-size: 1.5rem;
-    margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+.fondo{
+    background-color: $color-lilaClaro;
 }
 
 // Párrafos (sección:quienSoy, recetarios)
@@ -104,6 +106,8 @@ footer{
     margin-left: 2rem;
     margin-right: 2rem;
     font-family: $tipografiaP;
+    text-align: center;
+    line-height: 2.5rem;
 }
 
 // Bloque footer

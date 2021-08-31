@@ -23,6 +23,7 @@ ul li a{
     padding: 1rem;
 }
 
+
 /* p, hr */
 p{
     font-family: Arial, Helvetica, sans-serif;
@@ -62,15 +63,16 @@ footer{
     div input{
         margin-bottom: 1rem;
         border: none;
-        background-color: #f5efec;
+        background-color:#f5efec;
         font-family: Arial, Helvetica, sans-serif;
     }
 
     div textarea{
         margin-bottom: 1rem;
         border: none;
-        background-color: #f5efec;
+        background-color:#f5efec;
         font-family: Arial, Helvetica, sans-serif;
+        width: 30rem;
     }
     textArea:hover{
         background-color: #e5ddd2;
@@ -143,15 +145,18 @@ footer{
 /* h1 de quienSoy, recetarios, consultorio y contacto */
 .subtitulo{
     font-family: 'Vidaloka', serif; 
-    color: #e93a13;
+    color: #95997f;
     padding: 1rem;
     text-transform:uppercase;
     text-align: center;
     font-weight: bold;
     font-size: 1.7rem;
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
+.fondo{
+    background-color: #f5efec;
+}
+
 
 /*CLASES POR SECCIONES*/
 
@@ -247,32 +252,31 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 8rem;
+}
+.quienSoy2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15rem;
 }
 
 .imgQuienSoy{
     height: 45rem;
     width: 40rem;
-}
-
-.formacion{
-    width: 32rem;
-    margin-right: 2rem;
-    text-align: left;
-    line-height: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15rem;
 }
 
 /*CONSULTORIO*/
+.imgConsultorio{
+    width: 45rem;
+    height: 45rem;
+}
+
 .consultorio{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding: 4rem;
-    margin-bottom: 8rem;
 }
 
 .consultasP{
@@ -282,10 +286,11 @@ footer{
 }
 
 .consultorioP{
-    width: 30rem;
-    margin-right: 2rem;
+    width: 34rem;
+    margin-left: 2rem;
     margin-bottom: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5rem;
 }
 
 .solicitud{
@@ -305,7 +310,119 @@ footer{
     background-color: #415247;
 }
 
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.preguntas1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.preguntas2{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    margin: 2rem;
+}
+
+.preguntasT{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.preguntasP{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5rem;
+}
+
+.subtituloD{
+    font-family: 'Vidaloka', serif;
+    color: #415247;
+    padding: 1rem;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.dudas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dudasP{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5rem;
+    width: 35rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.instagram{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.instagram:hover{
+    color: #415247;
+}
+
+.dudasB{
+    text-decoration:none;
+    font-family: 'Vidaloka', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #b67162;
+    padding: 0.5rem;
+    transition: 1s;
+    margin-bottom: 10rem;
+}
+
+.dudasB:hover{
+    background-color: #415247;
+    color: #e5ddd2;
+}
+
+.dudasB2{
+    text-decoration: none;
+}
+
 /*RECETARIOS*/
+/* Primera parte */
+.ebooks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.ebooksP{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30rem;
+}
+/* Recetarios */
+.recetarios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .recetarios1{
     display: flex;
     flex-direction: row;
@@ -315,27 +432,58 @@ footer{
     padding: 2rem;
 }
 
-.recetarios2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 4rem;
-    margin-bottom: 8rem;
+.ebookT{
+    font-family: 'Vidaloka', serif;
+    font-size: 1.6rem;
+    color: #415247;
+    margin-top: 1rem;
 }
 
 .tamañoImagen{
-    height: 35rem;
+    height: 25rem;
+    width: 25rem;
+}
+
+/* Listas de compras */
+.compras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comprasP{
+    font-family: Arial, Helvetica, sans-serif;
     width: 35rem;
+    text-align: center;
+}
+
+.listas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    margin-bottom: 15rem;
+}
+
+.listasP{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 15rem;
+    text-align: center;
 }
 
 /* CONTACTOS */
 /* Main contacto */
+.contacto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20rem;
+    justify-content: center;
+}
+
 .contacto{
     display: flex;
     justify-content: center;
-    background-color: #e5ddd2;
 }
 
 /*Formulario*/
@@ -344,10 +492,9 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 3rem;
-    width: 30rem;
-    height: 43rem;
-    background-color: #fff;
-    margin-bottom: 8rem;
+    width: 45rem;
+    height: 47rem;
+    margin-bottom: 10rem;
     color: #415247;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -361,8 +508,8 @@ footer{
 }
 
 .nombre{
-    width: 25rem;
-    height: 1.5rem;
+    width: 30rem;
+    height: 3rem;
 }
 
 .nombre:hover{
@@ -499,10 +646,6 @@ footer{
     .seccionesP{
         margin-top: 2rem;
     }
-
-    .recetarios2{
-        width: 35rem;
-    }
     
     .tamañoImagen{
         height: 30rem;
@@ -553,7 +696,7 @@ footer{
         padding: 4rem;
         margin-bottom: 8rem;
     }
-    .formacion{
+    .seccionesP{
         margin-top: 2rem;
     }
 
@@ -584,16 +727,6 @@ footer{
 
     .seccionesP{
         margin-top: 2rem;
-    }
-
-    .recetarios2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem;
-        margin-bottom: 8rem;
     }
 }
 	

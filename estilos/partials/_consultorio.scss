@@ -3,24 +3,28 @@
 
 // BLOQUES Y CLASES: consultorio
 
+.imgConsultorio{
+    width: 45rem;
+    height: $ancho +5;
+}
+
 .consultorio{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    padding: 4rem;
-    margin-bottom: 8rem;
     &__consultasP{
         display: flex;
         flex-direction: column;
         text-align: center;
     }
     &__consultorioP{
-        width: 30rem;
-        margin-right: 2rem;
+        width: 34rem;
+        margin-left: 2rem;
         margin-bottom: 2rem;
         font-family: $tipografiaP;
+        line-height: 2.5rem;
     }
     &__solicitud{
         text-decoration:none;
@@ -39,6 +43,95 @@
     }
 }
 
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.preguntas1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.preguntas2{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    margin: 2rem;
+}
+
+.preguntasT{
+    font-family: $tipografiaP;
+    font-weight: bold;
+}
+
+.preguntasP{
+    font-family: $tipografiaP;
+    line-height: 2.5rem;
+}
+
+.subtituloD{
+    font-family: $tipografia;
+    color: $color-verde;
+    padding: 1rem;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.dudas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dudasP{
+    font-family: $tipografiaP;
+    line-height: 2.5rem;
+    width: 37rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.instagram{
+    text-decoration: none;
+    font-family: $tipografiaP;
+    color: $color-negro;
+}
+
+.instagram:hover{
+    color: $color-verde;
+}
+
+.dudasB{
+    text-decoration:none;
+    font-family: $tipografia;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $color-blanco;
+    background-color: $color-rosa;
+    padding: 0.5rem;
+    transition: 1s;
+    margin-bottom: 10rem;
+}
+
+.dudasB2{
+    text-decoration: none;
+}
+
+.dudasB:hover{
+    background-color:$color-verde;
+    color: $color-blanco;
+}
 
 
 
