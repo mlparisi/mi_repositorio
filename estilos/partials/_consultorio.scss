@@ -137,17 +137,32 @@
 
 // RESPONSIVE
 @media only screen and (max-width: 320px){
+    .mainC{
+        width: 46rem;
+    }
+
     .consultorio{
-        width: 30rem;
-        margin-left: 2.6rem;
+        width: 40rem;
     }
     .imgConsultorio{
-        margin-left: 0.8rem;
+        margin-left: 1.5rem;
     }
     
     .consultorioP{
         margin-top: 2rem;
     }
+
+    .preguntas1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 50rem;
+    }
+
 }
 
 @media only screen and (max-width: 768px){

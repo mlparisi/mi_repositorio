@@ -558,18 +558,16 @@ footer{
 @media only screen and (max-width: 320px) {
 
     /* Navegacion */
-    .navbar-brand{
-        margin: 0rem;
-    }
-
+    
+    
     /* Main */
     main{
-        width: 30rem;
+        width: 40rem;
     }
 
     /* Footer */
     footer{
-        width: 35rem;
+        width: 40rem;
     }
 
     /* INDEX */
@@ -586,13 +584,12 @@ footer{
     }
 
     .imgPrincipal{
-        margin-bottom: 5rem;
-        margin-left: 1.7rem;
+        width: 30rem;
     }
     
     /* Servicios */
     .section{
-        width: 35rem;
+        width: 40rem;
     }
      .img1{
         width: 25rem;
@@ -613,16 +610,16 @@ footer{
     /* QUIEN SOY */
     .quienSoy{
         width: 37.5rem;
-        margin-left: -1rem;
     }
  
     .imgQuienSoy{
-     height: 35rem;
-     width: 40rem;
+        height: 40rem;
+        width: 35rem;
+        margin-left: 4.5rem;
  }
-     .quienSoy2{
-         margin-left: -1.2rem;
-     }
+    .quienSoy2{
+        margin-left: 4rem;
+ }
     
 
     /* CONSULTORIO */
@@ -631,7 +628,7 @@ footer{
         margin-left: 2.6rem;
     }
     .imgConsultorio{
-        margin-left: 0.8rem;
+        margin-left: 1.5rem;
     }
     
     .consultorioP{
@@ -639,6 +636,14 @@ footer{
     }
     
     /* RECETARIOS */
+    .recetarios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
     .recetarios1{
         width: 35rem;
     }
@@ -646,16 +651,29 @@ footer{
     .seccionesP{
         margin-top: 2rem;
     }
-    
+
+
     .tamañoImagen{
         height: 30rem;
         width: 35rem;
     }
 
+    /* Listas de compras */
+    .listas{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 15rem;
+    }
+
     /* CONTACTO */
     @media only screen and (max-width: 320px){
+        .mainC{
+            width: 40rem;
+        }
+    
         .contacto{
-            width: 35rem;
+            width: 40rem;
         }
     }
 }
@@ -669,7 +687,7 @@ footer{
     }
     .imgPrincipal{
             margin-bottom: 5rem;
-            margin-left: 3.2rem;
+            margin-left: 3.3rem;
         }
 
     /* Servicios */
@@ -694,39 +712,92 @@ footer{
         align-items: center;
         text-align: center;
         padding: 4rem;
-        margin-bottom: 8rem;
+        margin-bottom: 2rem;
     }
-    .seccionesP{
-        margin-top: 2rem;
+
+    .imgQuienSoy{
+        margin-bottom: 2rem;
     }
 
     /* CONSULTORIO */
+    .mainC{
+        width: 46rem;
+    }
     .consultorio{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 4rem;
-        margin-bottom: 8rem;
+        width: 40rem;
+    }
+    .imgConsultorio{
+        margin-left: 0.8rem;
     }
     
     .consultorioP{
         margin-top: 2rem;
     }
 
+    .preguntas1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .footer{
+        width: 50rem;
+    }
+
     /* RECETARIOS */
-    .recetarios1{
+    /* Main */
+    .mainR{
+        width: 50rem;
+    }
+    /* Primera parte */
+    .ebooks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+
+    .recetarios{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .recetarios1{
+        width: 35rem;
+        margin-left: 6.2rem;
     }
 
     .seccionesP{
         margin-top: 2rem;
+    }
+
+
+    .tamañoImagen{
+        height: 30rem;
+        width: 35rem;
+    }
+
+    /* Listas de compras */
+    .listas{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 15rem;
+    }
+
+    /* CONTACTO */
+
+    .mainC{
+        width: 50rem;
+    }
+
+    .contacto{
+        width: 50rem;
     }
 }
 	

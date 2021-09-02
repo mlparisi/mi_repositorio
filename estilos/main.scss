@@ -130,18 +130,16 @@ footer{
 // RESPONSIVE
 @media only screen and (max-width: 320px) {
     // Navecación
-    .navbar-brand{
-        margin: 0rem;
-    }
+   
 
     // Main
     main{
-        width: 30rem;
+        width: 35rem;
     }
 
     // Footer
     footer{
-        width: 35rem;
+        width: 40rem;
     }
 }
 

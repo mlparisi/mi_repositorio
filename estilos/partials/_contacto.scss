@@ -114,11 +114,24 @@ textArea:hover{
 
 // RESPONSIVE
 @media only screen and (max-width: 320px){
+    .mainC{
+        width: 40rem;
+    }
+
     .contacto{
-        width: 35rem;
+        width: 40rem;
     }
 }
 
+@media only screen and (max-width: 768px){
+    .mainC{
+        width: 50rem;
+    }
+
+    .contacto{
+        width: 50rem;
+    }
+}
 
 
 
