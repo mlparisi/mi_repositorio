@@ -130,8 +130,12 @@ footer{
 // RESPONSIVE
 @media only screen and (max-width: 320px) {
     // Navecación
-   
-
+    .navegacion{
+        &__tamañoLogo{
+            width: 9rem;
+            height: auto;
+        }
+    }
     // Main
     main{
         width: 35rem;

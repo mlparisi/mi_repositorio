@@ -243,7 +243,7 @@ footer{
 
 .img1{
     width: 40rem;
-    height: 40rem;
+    height: auto;
 }
 
 /* Servicios 2 */
@@ -253,7 +253,7 @@ footer{
 
 .img2{
     width: 40rem;
-    height: 40rem;
+    height: auto;
 }
 
 /*QUIEN SOY*/
@@ -605,21 +605,21 @@ footer{
     }
 
     .imgPrincipal{
-        width: 31.5rem;
+        width: auto;
     }
     
     /* Servicios */
     .section{
-        width: 40rem;
+        width: 200%;
     }
      .img1{
         width: 25rem;
-        height: 25rem;
+        height: auto;
         margin-left: -0.5rem;
     }
     .img2{
         width: 25rem;
-        height: 25rem;
+        height: auto;
         margin-left: 3.9rem;
     }
     
@@ -735,7 +735,6 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30rem;
         text-align: center;
     }
 
