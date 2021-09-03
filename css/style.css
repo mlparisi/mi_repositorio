@@ -241,10 +241,20 @@ footer{
     background-color: #415247;
 }
 
+.img1{
+    width: 40rem;
+    height: 40rem;
+}
+
 /* Servicios 2 */
  .servicios2{
     margin-bottom: 8rem;
 } 
+
+.img2{
+    width: 40rem;
+    height: 40rem;
+}
 
 /*QUIEN SOY*/
 .quienSoy{
@@ -283,6 +293,17 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.subtituloC{
+    font-family: 'Vidaloka', serif;
+    color: #415247;
+    padding: 1rem;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .consultorioP{
@@ -584,7 +605,7 @@ footer{
     }
 
     .imgPrincipal{
-        width: 30rem;
+        width: 31.5rem;
     }
     
     /* Servicios */
@@ -594,7 +615,7 @@ footer{
      .img1{
         width: 25rem;
         height: 25rem;
-        margin-left: 0rem;
+        margin-left: -0.5rem;
     }
     .img2{
         width: 25rem;
@@ -623,16 +644,35 @@ footer{
     
 
     /* CONSULTORIO */
+    .mainC{
+        width: 46rem;
+    }
+
     .consultorio{
-        width: 30rem;
-        margin-left: 2.6rem;
+        width: 40rem;
     }
-    .imgConsultorio{
-        margin-left: 1.5rem;
-    }
-    
+
     .consultorioP{
         margin-top: 2rem;
+    }
+    
+    .consultasP{
+        margin-left: 4rem;
+    }
+    
+    .imgConsultorio{
+        margin-left: 5rem;
+    }
+
+    .preguntas1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer{
+        width: 50rem;
     }
     
     /* RECETARIOS */
@@ -720,31 +760,41 @@ footer{
     }
 
     /* CONSULTORIO */
-    .mainC{
-        width: 46rem;
-    }
     .consultorio{
-        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4rem;
+        margin-bottom: 8rem;
     }
-    .imgConsultorio{
-        margin-left: 0.8rem;
-    }
-    
+   
     .consultorioP{
         margin-top: 2rem;
+        }
+
+    .consultasP{
+        margin-right: 2rem;
+        }
+        
+    .imgConsultorio{
+        width: 40rem;
+        height: 40rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
     }
 
     .preguntas1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        width: 45rem;
+        margin-left: 1rem;
     }
 
-    
     .footer{
         width: 50rem;
     }
+    
+    
 
     /* RECETARIOS */
     /* Main */
