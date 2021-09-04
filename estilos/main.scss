@@ -129,13 +129,21 @@ footer{
 
 // RESPONSIVE
 @media only screen and (max-width: 320px) {
+    .headerM{
+        width: 40rem;
+    }
+
+    .hr{
+        width: 33rem;
+    }
     // Navecación
     .navegacion{
         &__tamañoLogo{
-            width: 9rem;
+            width: 14rem;
             height: auto;
         }
     }
+
     // Main
     main{
         width: 35rem;
