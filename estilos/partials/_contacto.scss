@@ -121,6 +121,10 @@ textArea:hover{
     .contacto{
         width: 40rem;
     }
+
+    .footerC{
+        width: 50rem;
+    }
 }
 
 @media only screen and (max-width: 768px){
@@ -129,6 +133,10 @@ textArea:hover{
     }
 
     .contacto{
+        width: 50rem;
+    }
+
+    .footerC{
         width: 50rem;
     }
 }
