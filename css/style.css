@@ -667,7 +667,6 @@ footer{
     .preguntas1{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
     }
 
@@ -710,8 +709,11 @@ footer{
         margin-bottom: 15rem;
     }
 
+    .ebookT{
+        margin-bottom: 2rem;
+    }
+
     /* CONTACTO */
-    @media only screen and (max-width: 320px){
         .mainC{
             width: 40rem;
         }
@@ -720,7 +722,6 @@ footer{
             width: 40rem;
         }
     }
-}
 	
 	
 @media only screen and (max-width: 768px) {
@@ -841,6 +842,9 @@ footer{
         flex-direction: column;
         margin-top: 3rem;
         margin-bottom: 15rem;
+    }
+    .ebookT{
+        margin-bottom: 2rem;
     }
 
     /* CONTACTO */
